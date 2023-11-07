@@ -356,21 +356,22 @@ fun MySootheAppLandscape() {
 }
 
 private val alignYourBodyData = listOf(
-    R.drawable.power to R.string.power,
-    R.drawable.meditation to R.string.meditation,
-    R.drawable.capoeira to R.string.capoeira,
-    R.drawable.pilates to R.string.pilates,
-    R.drawable.boxeo to R.string.boxeo,
-    R.drawable.yourself to R.string.yourself
+    R.drawable.tajmahal to R.string.tajmahal,
+    R.drawable.cristo to R.string.cristo,
+    R.drawable.petra to R.string.petra,
+    R.drawable.coliceo to R.string.coliceo,
+    R.drawable.machu to R.string.machu,
+    R.drawable.muralla to R.string.muralla,
+    R.drawable.itza to R.string.itza
 ).map { DrawableStringPair(it.first, it.second) }
 
 private val favoriteCollectionsData = listOf(
-    R.drawable.relax to R.string.relax,
-    R.drawable.connect_nature to R.string.connectNature,
-    R.drawable.stress to R.string.stress,
-    R.drawable.message to R.string.message,
-    R.drawable.let_it_go to R.string.let_it_go,
-    R.drawable.heal to R.string.heal
+    R.drawable.naturaleza to R.string.naturaleza,
+    R.drawable.sonar to R.string.sonar,
+    R.drawable.paraiso to R.string.paraiso,
+    R.drawable.vista to R.string.vista,
+    R.drawable.visitar to R.string.visitar,
+    R.drawable.noche to R.string.noche
 ).map { DrawableStringPair(it.first, it.second) }
 
 private data class DrawableStringPair(
@@ -390,7 +391,7 @@ fun AlignYourBodyElementPreview() {
     MySootheTheme {
         AlignYourBodyElement(
             text = R.string.ab1_inversions,
-            drawable = R.drawable.ab1_inversions,
+            drawable = R.drawable.tajmahal,
             modifier = Modifier.padding(8.dp)
         )
     }
@@ -401,8 +402,8 @@ fun AlignYourBodyElementPreview() {
 fun FavoriteCollectionCardPreview() {
     MySootheTheme {
         FavoriteCollectionCard(
-            text = R.string.connectNature,
-            drawable = R.drawable.fc2_nature_meditations,
+            text = R.string.naturaleza,
+            drawable = R.drawable.naturaleza,
             modifier = Modifier.padding(8.dp)
         )
     }

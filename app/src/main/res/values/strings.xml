@@ -13,21 +13,22 @@
   -->
 <resources>
     <string name="app_name">MySoothe</string>
-    <string name="favorite_collections">Best Collections</string>
-    <string name="align_your_body">Find Yourself</string>
+    <string name="favorite_collections">Lugares Para Conocer</string>
+    <string name="align_your_body">Maravillas del mundo</string>
     <string name="ab1_inversions">Inversions</string>
-    <string name="power">Power</string>
-    <string name="meditation">Meditation</string>
-    <string name="capoeira">Capoeira</string>
-    <string name="pilates">Pilates</string>
-    <string name="boxeo">Boxeo</string>
-    <string name="yourself">Find-Yourself</string>
-    <string name="relax">Relax Your Mind</string>
-    <string name="connectNature">Connect With Nature</string>
-    <string name="stress">Leave The Stress</string>
-    <string name="message">Short Messages</string>
-    <string name="let_it_go">Let It Go</string>
-    <string name="heal">Time To Heal</string>
+    <string name="tajmahal">Taj Mahal</string>
+    <string name="cristo">Cristo Rendentor</string>
+    <string name="petra">Petra</string>
+    <string name="coliceo">Coliceo De Roma</string>
+    <string name="machu">Machu Picchu</string>
+    <string name="muralla">Muralla China</string>
+    <string name="itza">Chichen Itza</string>
+    <string name="naturaleza">Conecta Con La Naturaleza</string>
+    <string name="sonar">Un Lugar Para Soñar</string>
+    <string name="paraiso">El Paraiso</string>
+    <string name="vista">La Mejor Vista</string>
+    <string name="visitar">Un Lugar Para Visitar</string>
+    <string name="noche">De Noche Es Mejor</string>
     <string name="cd_fab_start">start</string>
     <string name="bottom_navigation_home">Home</string>
     <string name="bottom_navigation_profile">Profile</string>
